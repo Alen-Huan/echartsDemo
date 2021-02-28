@@ -91,6 +91,7 @@ export default Vue.extend({
                       background: transparent;
                       color: #d3d7f7;
                       margin-bottom: 20px;
+                      outline: none;
                   }
                   p {
                       text-align: left;

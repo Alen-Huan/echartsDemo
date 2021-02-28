@@ -2,9 +2,15 @@
     <div class="slide-box">
         <div class="swiper-container">
             <div class="swiper-wrapper">
-                <div class="swiper-slide">Slide 1</div>
-                <div class="swiper-slide">Slide 2</div>
-                <div class="swiper-slide">Slide 3</div>
+                <div class="swiper-slide">
+                    <img src="../../assets/img/login/bg1.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="../../assets/img/login/bg2.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="../../assets/img/login/bg3.jpg" alt="">
+                </div>
           </div>
       </div>
     </div>
@@ -53,6 +59,9 @@ export default {
       -ms-flex-align: center;
       -webkit-align-items: center;
       align-items: center;
+      img {
+          width: 100%;
+      }
     }
     .slide-box {
         position: fixed;
